@@ -66,6 +66,7 @@ nav a:hover {
 .service {
     display: inline-block;
     background-color: white;
+    text-align: center;
     border: 5px solid green;
     border-radius: 5px;
     color: darkred;
@@ -77,10 +78,21 @@ nav a:hover {
 table {
     border: 3px solid black;
     width: 100%;
+    color: black 
 }
   
 td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+.locations {
+    background-color: green;
+    color: white;
+}
+
+nav.current { 
+    background: green !important;
+    color: white !important; 
 }
