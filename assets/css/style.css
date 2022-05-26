@@ -92,7 +92,25 @@ th {
     color: white;
 }
 
-nav.current { 
+nav .current { 
     background: green !important;
     color: white !important; 
 }
+
+ .footer {
+     color: white;
+     background-color: darkgreen;
+ }
+
+ .topbanner {
+     color: white;
+     display: inline-block;
+     width:100%;
+     background-color: darkgreen;
+ }
+
+ .icon-bar {
+    background-color: white; 
+    color: black; 
+ }
+ 
